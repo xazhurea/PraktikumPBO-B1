@@ -3,9 +3,12 @@ class Mtitik{
      
         //Deklarasi objek t1 dan t2 dari class Titik
         Titik t1 = new Titik(1,2);
-     
+        t1.setAbsis(1.0);
+        t1.setOrdinat(2.0);
 
         Titik t2 = new Titik(3,4);
+        t2.setAbsis(3.0);
+        t2.setOrdinat(4.0);
     
 
         Titik t3 = new Titik(5,6);
