@@ -5,7 +5,12 @@ class Titik{
     static int counterTitik;
 
     //deklarasi konstruktor
-    Titik(double a, double o){
+    Titik(){
+        absis = 0;
+        ordinat = 0;
+        counterTitik++;
+    }
+    Titik(double a, double o){ //overloading constructor
         absis = a;
         ordinat = o;
         counterTitik++;
