@@ -21,7 +21,7 @@ class PrismaSegitiga{
         }
 
     private double hitungLuasPermukaan () {
-        double luaspermukaan = alas.hitungLuas()*2 + tinggiPrisma*alas.hitungLuas()*3;
+        double luaspermukaan = alas.hitungLuas()*2 + tinggiPrisma*alas.getAlas()*3;
         return luaspermukaan;
         }
     
