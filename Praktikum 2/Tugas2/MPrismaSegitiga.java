@@ -5,11 +5,8 @@ public class MPrismaSegitiga {
     
         System.out.println("segitiga(" + s.getAlas() + "," + s.getTinggiSegitiga() + ")" );
 
-        double volume = p.Volume();
-        System.out.println("Volume: " + volume);
-
-        double luaspermukaan = p.LuasPermukaan();
-        System.out.println("luaspermukaan: " + luaspermukaan);
+        System.out.println("Volume: " + p.Volume());
+        System.out.println("luaspermukaan: " + p.LuasPermukaan());
     }
     
 }
